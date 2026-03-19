@@ -1,5 +1,5 @@
 Hideout Furniture Infinite Fuel: No fuel consumption for placeable lights, by Damian
-Latest: 1.0.0
+Latest: 1.0.1 (xlibs 1.0.5)
 
 Removes fuel and battery consumption from all placeable light furniture.
 Lights no longer require batteries, kerosene, or gauss ammo to operate.
@@ -19,6 +19,8 @@ All other furniture (workshop, radio, displays, stashes) does not consume fuel a
 
 Requirements:
 Anomaly 1.5.3
+Modded exes
+xlibs (https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001)
 Hideout Furniture by Aoldri (provides bind_hf_base.script)
 
 Install (MO2):
@@ -39,6 +41,10 @@ Releases: https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel
 Original mod by Aoldri. This is a one-line patch.
 
 Versions:
+
+1.0.1
+  Added: dependency gate for xlibs version check
+  Added: xlibs as explicit requirement (uses xlog)
 
 1.0.0
   First release. Infinite fuel for all placeable lights.
