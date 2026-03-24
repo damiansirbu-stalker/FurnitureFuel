@@ -35,10 +35,17 @@ Compatibility:
 Simple file replacement (not DLTX). Overrides bind_light_furniture.script.
 Works with Hideout Furniture by Aoldri, SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, G.A.M.M.A. Light Sources Spawner.
 
+Credits:
+DrakoMT and SaloEater for their support.
+Demonized, Catspaw, Vintar0, RavenAscendant, xcvb, lizzardman, Aoldri, and Feel_Fried. Their work on the engine, modded exes, scripts, and tools shaped how Anomaly modding is done.
+
 Development:
 Source: https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel
 Releases: https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel/releases
 Original mod by Aoldri. This is a one-line patch.
+
+License:
+MIT License. See LICENSE file.
 
 Versions:
 
