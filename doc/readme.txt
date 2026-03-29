@@ -43,8 +43,10 @@ Demonized, Catspaw, Vintar0, RavenAscendant, xcvb, lizzardman, Aoldri, and Feel_
 Development:
 Original mod by Aoldri. This is a one-line patch.
 
-License:
-MIT License. See LICENSE file.
+Usage and License:
+  Modpacks: allowed and encouraged. Keep the readme and license files.
+  Addons, patches, integrations: allowed. Credit "Hideout Furniture Infinite Fuel by Damian Sirbu" visibly on your mod page.
+  Full license in LICENSE file and on GitHub.
 
 Versions:
 
