@@ -1,0 +1,79 @@
+<h3>Latest: 1.0.3 (xlibs 1.2.3)</h3>
+<h3>GitHub: <a href="https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel">https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel</a></h3>
+
+<p>Removes fuel and battery consumption from all placeable light furniture.<br />
+Lights no longer require batteries, kerosene, or gauss ammo to operate.</p>
+
+<p>One script change: bind_light_furniture.script line 88, self.infinite_fuel = true instead of checking world object status.<br />
+All visual effects, sounds, flickering, and toggle behavior are preserved.</p>
+
+<h2>Features</h2>
+
+<h3>Affected items:</h3>
+<ul>
+<li><b>Metal Torch</b> (was: batteries_dead, 800h)</li>
+<li><b>Gas Lamp</b> (was: kerosene, 1200h)</li>
+<li><b>Gas Lamp GAMMA variant</b> (was: kerosene, 99999h)</li>
+<li><b>Light Altar</b> (was: ammo_gauss, 2400h)</li>
+</ul>
+
+<p>All other furniture (workshop, radio, displays, stashes) does not consume fuel and is unaffected.</p>
+
+<h2>Requirements</h2>
+<ul>
+<li>Anomaly 1.5.3</li>
+<li>Modded exes</li>
+<li><a href="https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001">xlibs</a></li>
+<li>Hideout Furniture by Aoldri (provides bind_hf_base.script)</li>
+</ul>
+
+<h2>Install (MO2)</h2>
+<ul>
+<li>1. Install Hideout Furniture by Aoldri</li>
+<li>2. Install this mod</li>
+<li>3. Must load AFTER Hideout Furniture and any Hideout Furniture patches</li>
+</ul>
+
+<h2>Uninstall (MO2)</h2>
+<p>Disable or remove in MO2.</p>
+
+<h2>Compatibility</h2>
+<p>Simple file replacement (not DLTX). Overrides bind_light_furniture.script.<br />
+Works with Hideout Furniture by Aoldri, SixSloth's &amp; Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, G.A.M.M.A. Light Sources Spawner.</p>
+
+<h2>Credits</h2>
+<p>DrakoMT and SaloEater for their support.<br />
+Demonized, Catspaw, Vintar0, RavenAscendant, xcvb, lizzardman, Aoldri, and Feel_Fried. Their work on the engine, modded exes, scripts, and tools shaped how Anomaly modding is done.</p>
+
+<h2>Development</h2>
+<p>Original mod by Aoldri. This is a one-line patch.</p>
+
+<h2>Usage and License</h2>
+<ul>
+<li>Modpacks: allowed and encouraged. Keep the readme and license files.</li>
+<li>Addons, patches, integrations: allowed. Credit "Hideout Furniture Infinite Fuel by Damian Sirbu" visibly on your mod page.</li>
+<li>Full license in LICENSE file and on GitHub.</li>
+</ul>
+
+<h2>Versions</h2>
+
+<h3>1.0.3</h3>
+<ul>
+<li>xlibs 1.2.3 dependency.</li>
+</ul>
+
+<h3>1.0.2</h3>
+<ul>
+<li>Changed: xlibs dependency updated to 1.2.1</li>
+</ul>
+
+<h3>1.0.1</h3>
+<ul>
+<li>Added: dependency gate for xlibs version check</li>
+<li>Added: xlibs as explicit requirement (uses xlog)</li>
+</ul>
+
+<h3>1.0.0</h3>
+<ul>
+<li>First release. Infinite fuel for all placeable lights.</li>
+</ul>
