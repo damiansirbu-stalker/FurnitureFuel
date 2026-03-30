@@ -1,5 +1,5 @@
 Hideout Furniture Infinite Fuel: No fuel consumption for placeable lights, by Damian
-Latest: 1.0.2 (xlibs 1.2.1)
+Latest: 1.0.3 (xlibs 1.2.3)
 GitHub: https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel
 
 Removes fuel and battery consumption from all placeable light furniture.
@@ -49,6 +49,9 @@ Usage and License:
   Full license in LICENSE file and on GitHub.
 
 Versions:
+
+1.0.3
+  xlibs 1.2.3 dependency.
 
 1.0.2
   Changed: xlibs dependency updated to 1.2.1

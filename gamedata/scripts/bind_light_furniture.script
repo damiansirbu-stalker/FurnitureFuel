@@ -27,7 +27,7 @@ function turn_off_lamp(obj_id)
 end
 
 local function get_time_elapsed()
-    return game.get_game_time():diffSec(level.get_start_time())
+    return xtime.game_sec()
 end
 gc = game.translate_string
 ---------------------------------------------------------------------------------------------------
