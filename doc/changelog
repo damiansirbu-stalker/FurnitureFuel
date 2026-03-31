@@ -1,3 +1,6 @@
+1.0.4
+  Added: version logged at startup (mod + xlibs)
+
 1.0.3
   xlibs 1.2.3 dependency.
 
