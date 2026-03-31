@@ -1,0 +1,12 @@
+1.0.3
+  xlibs 1.2.3 dependency.
+
+1.0.2
+  Changed: xlibs dependency updated to 1.2.1
+
+1.0.1
+  Added: dependency gate for xlibs version check
+  Added: xlibs as explicit requirement (uses xlog)
+
+1.0.0
+  First release. Infinite fuel for all placeable lights.
