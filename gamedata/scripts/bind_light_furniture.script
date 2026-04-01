@@ -1,7 +1,7 @@
 --- bind_light_furniture: Removes fuel consumption from placeable light furniture
 --- Requires: Hideout Furniture mod (bind_hf_base, hf_obj_manager)
 
-local log = xlog.get_logger("HIDEOUT_INFINITE_FUEL")
+local log = xlog.get_logger("HIDEOUT_INFINITE_FUEL", { outfile = "hideout.log" })
 
 if not bind_hf_base or not hf_obj_manager then
     log.warn("Hideout Furniture mod not found - this patch requires it")
@@ -9,7 +9,7 @@ if not bind_hf_base or not hf_obj_manager then
 end
 
 local math = math
-local time_global, CreateTimeEvent = time_global, CreateTimeEvent
+local time_global = time_global
 
 function turn_off_lamp(obj_id)
 	local obj = get_object_by_id(obj_id)
