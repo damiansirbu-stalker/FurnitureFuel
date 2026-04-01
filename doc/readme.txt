@@ -46,4 +46,5 @@ Original mod by Aoldri. This is a one-line patch.
 Usage and License:
   Modpacks: allowed and encouraged. Keep the readme and license files.
   Addons, patches, integrations: allowed. Credit "Hideout Furniture Infinite Fuel by Damian Sirbu" visibly on your mod page.
+  Reproducing the implementation in other software: not allowed, even with credit.
   Full license in LICENSE file and on GitHub.
