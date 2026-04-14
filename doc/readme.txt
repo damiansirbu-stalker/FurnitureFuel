@@ -33,12 +33,13 @@ Uninstall (MO2):
 Disable or remove in MO2.
 
 Compatibility:
+Compatible with all modded exe variants (Demonized, AOE, MT).
 Simple file replacement (not DLTX). Overrides bind_light_furniture.script.
 Works with Hideout Furniture by Aoldri, SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, G.A.M.M.A. Light Sources Spawner.
 
 Credits:
-DrakoMT and SaloEater for their support.
-Demonized, Catspaw, Vintar0, RavenAscendant, xcvb, lizzardman, Aoldri, and Feel_Fried. Their work on the engine, modded exes, scripts, and tools shaped how Anomaly modding is done.
+Stalker_Boss - Russian translation
+Altogolik - support, ideas, source materials
 
 Development:
 Original mod by Aoldri. This is a one-line patch.
