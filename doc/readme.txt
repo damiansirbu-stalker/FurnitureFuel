@@ -20,7 +20,6 @@ All other furniture (workshop, radio, displays, stashes) does not consume fuel a
 
 Requirements:
 Anomaly 1.5.3
-Modded exes
 xlibs (https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001)
 Hideout Furniture by Aoldri (provides bind_hf_base.script)
 
@@ -33,12 +32,11 @@ Uninstall (MO2):
 Disable or remove in MO2.
 
 Compatibility:
-Compatible with all modded exe variants (Demonized, AOE, MT).
+Tested with vanilla Anomaly 1.5.3, Demonized main, Demonized MT, and AOEngine (latest versions).
 Simple file replacement (not DLTX). Overrides bind_light_furniture.script.
 Works with Hideout Furniture by Aoldri, SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, G.A.M.M.A. Light Sources Spawner.
 
 Credits:
-Stalker_Boss - Russian translation
 Altogolik - support, ideas, source materials
 
 Development:
