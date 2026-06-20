@@ -32,7 +32,9 @@ Uninstall (MO2):
 Disable or remove in MO2.
 
 Compatibility:
-Tested with vanilla Anomaly 1.5.3, Demonized main, Demonized MT, and AOEngine (latest versions).
+Requires xlibs.
+Runs on themrdemonized modded exes 2025.9.10 or newer, or AOEngine v0.55 or newer.
+The full feature set needs the latest demonized build. A feature that needs a newer build stays inactive on older exes.
 Simple file replacement (not DLTX). Overrides bind_light_furniture.script.
 Works with Hideout Furniture by Aoldri, SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, G.A.M.M.A. Light Sources Spawner.
 
@@ -47,3 +49,14 @@ Usage and License:
   Addons, patches, integrations: allowed. Credit "Hideout Furniture Infinite Fuel by Damian Sirbu" visibly on your mod page.
   Reproducing the implementation in other software: not allowed, even with credit.
   Full license in LICENSE file and on GitHub.
+
+Reporting issues and suggestions
+Open a bug report or a suggestion at https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel/issues/new/choose.
+Also discussed on the GAMMA, EFP, Anomaly, and Zona Discord servers.
+
+Before posting, read this readme.
+
+Include:
+- Exact steps to reproduce, from a new game or a named save, with expected and actual result.
+- xray.log, plus engine build, modlist, load order.
+- Describe the behavior. With hundreds of mods and overrides, only the log shows whether this mod was involved and what caused it.
