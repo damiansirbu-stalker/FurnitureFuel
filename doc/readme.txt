@@ -38,6 +38,10 @@ The full feature set needs the latest demonized build. A feature that needs a ne
 Simple file replacement (not DLTX). Overrides bind_light_furniture.script.
 Works with Hideout Furniture by Aoldri, SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, G.A.M.M.A. Light Sources Spawner.
 
+FAQ:
+Do I need modded exes?
+  Yes. Hideout Furniture Infinite Fuel needs themrdemonized modded exes (2025.9.10 or newer) or AOEngine (v0.55 or newer). Vanilla Anomaly does not expose the APIs it relies on.
+
 Credits:
 Altogolik - support, ideas, source materials
 
