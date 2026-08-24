@@ -1,6 +1,20 @@
-Hideout Furniture Infinite Fuel: No fuel consumption for placeable lights, by Damian
-GitHub: https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel
-Changelog: https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel/blob/main/doc/changelog
+FurnitureFuel: No fuel consumption for placeable lights, by Damian
+GitHub: https://github.com/damiansirbu-stalker/FurnitureFuel
+Changelog: https://github.com/damiansirbu-stalker/FurnitureFuel/blob/main/doc/changelog
+
+Alife Collection:
+AlifeAmbience: https://github.com/damiansirbu-stalker/AlifeAmbience
+AlifeBalance: https://www.moddb.com/mods/stalker-anomaly/addons/alifebalance
+AlifeCompanions: https://github.com/damiansirbu-stalker/AlifeCompanions
+AlifeDiegetic: https://www.moddb.com/mods/stalker-anomaly/addons/diegetic-audio-control-100
+AlifeGuard: https://www.moddb.com/mods/stalker-anomaly/addons/alifeguard-1001
+AlifePlus: https://www.moddb.com/mods/stalker-anomaly/addons/alifeplus-v1-0-01
+AlifeSpooks: https://github.com/damiansirbu-stalker/AlifeSpooks
+AlifeTactics: https://www.moddb.com/mods/stalker-anomaly/addons/alifetactics
+FurnitureFuel: https://github.com/damiansirbu-stalker/FurnitureFuel
+JitProfiler: https://github.com/damiansirbu-stalker/JitProfiler
+TestZone: https://github.com/damiansirbu-stalker/TestZone
+xlibs: https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001
 
 Removes fuel and battery consumption from all placeable light furniture.
 Lights no longer require batteries, kerosene, or gauss ammo to operate.
@@ -43,7 +57,7 @@ Works with Hideout Furniture by Aoldri, SixSloth's & Veerserif's Hideout Furnitu
 
 FAQ:
 Do I need modded exes?
-  Yes. Hideout Furniture Infinite Fuel needs themrdemonized modded exes (2025.9.10 or newer) or AOEngine (v0.55 or newer). Vanilla Anomaly does not expose the APIs it relies on.
+  Yes. FurnitureFuel needs themrdemonized modded exes (2025.9.10 or newer) or AOEngine (v0.55 or newer). Vanilla Anomaly does not expose the APIs it relies on.
 
 Credits:
 Altogolik - support, ideas, source materials
@@ -53,11 +67,11 @@ Original mod by Aoldri. This is a one-line patch.
 
 Usage and License:
   Modpacks: allowed and encouraged. Keep the readme and license files.
-  Addons, patches, integrations: allowed. Credit "Hideout Furniture Infinite Fuel by Damian Sirbu" visibly on your mod page.
+  Addons, patches, integrations: allowed. Credit "FurnitureFuel by Damian Sirbu" visibly on your mod page.
   Reproducing the implementation in other software: not allowed, even with credit.
   Full license in LICENSE file and on GitHub.
 
 Reporting issues and suggestions
-Open a report at https://github.com/damiansirbu-stalker/Hideout-Furniture-Infinite-Fuel/issues/new/choose, or ask on the GAMMA, EFP, Anomaly, and Zona Discord servers. Read this readme first.
+Open a report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose, or ask on the GAMMA, EFP, Anomaly, and Zona Discord servers. Read this readme first.
 
 Include: exact repro steps (new game or named save, expected vs actual), engine build, modlist, load order, and xray.log. With hundreds of mods loaded, only the log shows whether this one was involved.

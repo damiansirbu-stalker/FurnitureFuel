@@ -237,5 +237,5 @@ function placeable_light_wrapper:save_data()
 end
 
 function on_game_start()
-    log.info("Hideout Furniture Infinite Fuel v%s (xlibs v%s)", _hideout_deps.get_version(), xlibs.get_version())
+    log.info("FurnitureFuel v%s (xlibs v%s)", _ff_deps.get_version(), xlibs.get_version())
 end

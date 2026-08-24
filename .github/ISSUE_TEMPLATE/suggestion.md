@@ -1,6 +1,6 @@
 ---
 name: Suggestion
-about: Propose an idea or feature for Hideout Furniture Infinite Fuel
+about: Propose an idea or feature for FurnitureFuel
 title: ''
 labels: suggestion
 ---

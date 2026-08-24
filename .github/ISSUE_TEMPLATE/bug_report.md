@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a bug in Hideout Furniture Infinite Fuel
+about: Report a bug in FurnitureFuel
 title: ''
 labels: bug
 ---
@@ -16,7 +16,7 @@ labels: bug
 2.
 
 ## Versions
-- Hideout Furniture Infinite Fuel:
+- FurnitureFuel:
 - Anomaly: 1.5.3 (Modded exes y/n)
 - GAMMA / standalone:
 
