@@ -1,4 +1,4 @@
-# FurnitureFuel: no fuel consumption for placeable lights
+# FurnitureFuel: No fuel consumption for placeable lights
 
 Removes fuel and battery consumption from every placeable light in Hideout Furniture, so lights no longer need batteries, kerosene or gauss ammo.
 Visual effects, sounds, flickering and toggle behavior are unchanged.
