@@ -1,4 +1,5 @@
 FurnitureFuel: No fuel consumption for placeable lights, by Damian
+Version: next (xlibs 1.5.1, demonized 20250908)
 GitHub: https://github.com/damiansirbu-stalker/FurnitureFuel
 Changelog: https://github.com/damiansirbu-stalker/FurnitureFuel/blob/main/doc/changelog
 
