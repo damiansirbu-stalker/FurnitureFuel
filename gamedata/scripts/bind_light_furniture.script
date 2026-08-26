@@ -29,9 +29,7 @@ local function get_time_elapsed()
     return xtime.game_sec()
 end
 gc = game.translate_string
----------------------------------------------------------------------------------------------------
 -- Physic objects binding
-----------------------------------------------------------------------------------------------------
 local lights = {}
 local switch = false
 
@@ -67,7 +65,6 @@ function init(obj)
     obj:bind_object(placeable_light_wrapper(obj).binder)
 end
 
----------------------------------------------------------------------------------------------
 class "placeable_light_wrapper" (bind_hf_base.hf_binder_wrapper)
 function placeable_light_wrapper:__init(obj) super(obj)
 	local obj_id = obj:id()
