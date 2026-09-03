@@ -26,7 +26,7 @@ function turn_off_lamp(obj_id)
 end
 
 local function get_time_elapsed()
-    return xtime.game_sec()
+    return xtime.get_game_sec()
 end
 gc = game.translate_string
 -- Physic objects binding
