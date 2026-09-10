@@ -1,5 +1,6 @@
 --- bind_light_furniture: Removes fuel consumption from placeable light furniture
 --- Requires: Hideout Furniture mod (bind_hf_base, hf_obj_manager)
+-- @novalidate(reason:"full-file override of Hideout Furniture bind_light_furniture; infinite-fuel patch")
 
 local log = xlog.get_logger("HIDEOUT_INFINITE_FUEL", { outfile = "hideout.log" })
 
