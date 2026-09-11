@@ -47,18 +47,18 @@ Install (MO2):
 Uninstall (MO2):
 Disable or remove in MO2.
 
-Performance:
-Performance comes first, ahead of any feature. When a feature cannot fit the budget it is reworked, replaced, or removed with an X-Ray engine modification rather than allowed to slow the game. Measured on the engine built from the latest source with no multithreading and no optimizations, so the timings are worst-case; the optimized multithreaded build you run is always faster.
-
 Compatibility:
 Coexists with Hideout Furniture (Aoldri), SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, and G.A.M.M.A. Light Sources Spawner.
 - Conflicts: any mod that also overrides bind_light_furniture.script (this is a full-file replacement, not DLTX).
 
-Credits:
-Altogolik - support, ideas, source materials
+Performance:
+Performance comes first, ahead of any feature. When a feature cannot fit the budget it is reworked, replaced, or removed with an X-Ray engine modification rather than allowed to slow the game. Measured on the engine built from the latest source with no multithreading and no optimizations, so the timings are worst-case; the optimized multithreaded build you run is always faster.
 
 Development:
 Original mod by Aoldri. This is a one-line patch.
+
+Credits:
+Altogolik - support, ideas, source materials
 
 Usage and License:
   Modpacks: allowed and encouraged. Keep the readme and license files.
@@ -66,7 +66,5 @@ Usage and License:
   Reproducing the implementation in other software: not allowed, even with credit.
   Full license in LICENSE file and on GitHub.
 
-Reporting issues and suggestions
-Open a report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose, or ask on the EFP, Anomaly, and Zona Discord servers. Read this readme first.
-
-Include: exact repro steps (new game or named save, expected vs actual), engine build, modlist, load order, and xray.log. With hundreds of mods loaded, only the log shows whether this one was involved.
+Diagnostics and reporting:
+Report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose or the EFP, Anomaly, and Zona Discord. Include repro steps, engine build, modlist, load order, and xray.log.
