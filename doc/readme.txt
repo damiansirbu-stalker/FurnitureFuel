@@ -35,6 +35,7 @@ All other furniture (workshop, radio, displays, stashes) does not consume fuel a
 
 Requirements:
 Anomaly 1.5.3
+Modded exes: themrdemonized 2025.9.10 or newer, or AOEngine v0.55 or newer. The full feature set needs the latest demonized build; a feature that needs a newer one stays inactive on older exes.
 xlibs (https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001)
 Hideout Furniture by Aoldri (provides bind_hf_base.script)
 
@@ -50,15 +51,8 @@ Performance:
 Performance comes first, ahead of any feature. When a feature cannot fit the budget it is reworked, replaced, or removed with an X-Ray engine modification rather than allowed to slow the game. Measured on the engine built from the latest source with no multithreading and no optimizations, so the timings are worst-case; the optimized multithreaded build you run is always faster.
 
 Compatibility:
-Requires xlibs.
-Runs on themrdemonized modded exes 2025.9.10 or newer, or AOEngine v0.55 or newer.
-The full feature set needs the latest demonized build. A feature that needs a newer build stays inactive on older exes.
-Simple file replacement (not DLTX). Overrides bind_light_furniture.script.
-Works with Hideout Furniture by Aoldri, SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, G.A.M.M.A. Light Sources Spawner.
-
-FAQ:
-Do I need modded exes?
-  Yes. FurnitureFuel needs themrdemonized modded exes (2025.9.10 or newer) or AOEngine (v0.55 or newer). Vanilla Anomaly does not expose the APIs it relies on.
+Coexists with Hideout Furniture (Aoldri), SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, and G.A.M.M.A. Light Sources Spawner.
+- Conflicts: any mod that also overrides bind_light_furniture.script (this is a full-file replacement, not DLTX).
 
 Credits:
 Altogolik - support, ideas, source materials
@@ -73,6 +67,6 @@ Usage and License:
   Full license in LICENSE file and on GitHub.
 
 Reporting issues and suggestions
-Open a report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose, or ask on the GAMMA, EFP, Anomaly, and Zona Discord servers. Read this readme first.
+Open a report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose, or ask on the EFP, Anomaly, and Zona Discord servers. Read this readme first.
 
 Include: exact repro steps (new game or named save, expected vs actual), engine build, modlist, load order, and xray.log. With hundreds of mods loaded, only the log shows whether this one was involved.
