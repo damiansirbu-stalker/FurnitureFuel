@@ -5,6 +5,8 @@ Visual effects, sounds, flickering and toggle behavior are unchanged.
 
 [Releases](https://github.com/damiansirbu-stalker/FurnitureFuel/releases) | [Bugs, suggestions](https://github.com/damiansirbu-stalker/FurnitureFuel/issues)
 
+[![Grade](https://img.shields.io/endpoint?url=https%3A%2F%2Fdamiansirbu-stalker.github.io%2FFurnitureFuel%2Fbadge.json)](https://damiansirbu-stalker.github.io/FurnitureFuel/) [![validate](https://github.com/damiansirbu-stalker/FurnitureFuel/actions/workflows/validate.yml/badge.svg)](https://github.com/damiansirbu-stalker/FurnitureFuel/actions/workflows/validate.yml) [![Project Health](https://img.shields.io/badge/project_health-dashboard-00ced1)](https://damiansirbu-stalker.github.io/FurnitureFuel/)
+
 Requires: Anomaly 1.5.3, modded exes, [xlibs](https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001), Hideout Furniture by Aoldri. Exact versions in [readme.txt](doc/readme.txt).
 
 ## Alife Collection
