@@ -4,6 +4,9 @@ next
   Compatibility:
     Requires themrdemonized modded exes 2025.9.10+ or AOEngine v0.55+.
 
+  Performance and Infrastructure
+    - Validated locally and in CI on every push, and brought to the collection's standard layout.
+
 1.0.3
   xlibs 1.2.3 dependency.
 
