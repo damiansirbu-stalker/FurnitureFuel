@@ -35,7 +35,7 @@ All other furniture (workshop, radio, displays, stashes) does not consume fuel a
 
 Requirements:
 Anomaly 1.5.3
-Modded exes: themrdemonized 2025.9.10 or newer, or AOEngine v0.55 or newer. The full feature set needs the latest demonized build; a feature that needs a newer one stays inactive on older exes.
+Modded exes: themrdemonized or AOEngine v0.55 or newer. The full feature set needs the latest demonized build; a feature that needs a newer one stays inactive on older exes.
 xlibs (https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001)
 Hideout Furniture by Aoldri (provides bind_hf_base.script)
 
@@ -51,11 +51,9 @@ Compatibility:
 Coexists with Hideout Furniture (Aoldri), SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, and G.A.M.M.A. Light Sources Spawner.
 - Conflicts: any mod that also overrides bind_light_furniture.script (this is a full-file replacement, not DLTX).
 
-Performance:
-Performance comes first, ahead of any feature. When a feature cannot fit the budget it is reworked, replaced, or removed with an X-Ray engine modification rather than allowed to slow the game. Measured on the engine built from the latest source with no multithreading and no optimizations, so the timings are worst-case; the optimized multithreaded build you run is always faster.
-
-Development:
-Original mod by Aoldri. This is a one-line patch.
+Performance and Infrastructure:
+Original mod by Aoldri. This is a one-line patch, validated on every change locally and in CI.
+Project Health: https://damiansirbu-stalker.github.io/FurnitureFuel/
 
 Credits:
 Altogolik - support, ideas, source materials
