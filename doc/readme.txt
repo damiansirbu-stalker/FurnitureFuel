@@ -66,4 +66,4 @@ Usage and License:
   Full license in LICENSE file and on GitHub.
 
 Diagnostics and reporting:
-Report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose or the EFP, Anomaly, and Zona Discord. Include repro steps, engine build, modlist, load order, and xray.log.
+Report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose or the EFP, Anomaly, and Zona Discord. Include repro steps, engine build, modlist, load order, xray.log, and the debug log.
