@@ -75,3 +75,5 @@ Usage and License:
 
 Diagnostics and reporting:
 Report at https://github.com/damiansirbu-stalker/FurnitureFuel/issues/new/choose or the EFP, Anomaly, and Zona Discord. Include repro steps, engine build, modlist, load order, xray.log, and the debug log.
+
+Tags: quality-of-life, infinite-fuel, lights, furniture, hideout, engine-native, performance, save-safe

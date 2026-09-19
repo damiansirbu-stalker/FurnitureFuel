@@ -1,0 +1,1 @@
+Infinite-fuel placeable lights for STALKER Anomaly. FurnitureFuel removes fuel and battery drain from Hideout Furniture lights (torch, gas lamp, light altar), so they never need kerosene, batteries, or gauss ammo. Visual effects and toggles preserved. Quality of life, engine-native, performant, save-safe.
