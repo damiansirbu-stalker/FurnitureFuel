@@ -1,0 +1,42 @@
+direction: right
+
+style.fill: "#1f2421"
+
+**.style.fill: "#262c27"
+**.style.stroke: "#ece7d8"
+**.style.font-color: "#ece7d8"
+**.style.stroke-width: 2
+
+title: "FurnitureFuel - placeable lights never burn fuel" {
+  near: top-center
+  style: { stroke-width: 0; fill: "#1f2421"; font-color: "#ece7d8"; font-size: 28 }
+}
+
+lights: "Placeable light furniture" {
+  grid-columns: 1
+  grid-gap: 14
+  a: "Metal Torch (was batteries, 800h)"
+  b: "Gas Lamp (was kerosene, 1200h)"
+  c: "Gas Lamp GAMMA (was kerosene, 99999h)"
+  d: "Light Altar (was gauss ammo, 2400h)"
+}
+
+change: "One line in bind_light_furniture.script" {
+  style.stroke: "#c9d8b6"
+  grid-columns: 1
+  grid-gap: 12
+  a: "self.infinite_fuel = true"
+  b: "was: check the world object fuel status"
+}
+
+keep: "Everything else preserved" {
+  grid-columns: 2
+  grid-gap: 12
+  v: "visuals"
+  s: "sounds"
+  f: "flicker"
+  t: "on / off toggle"
+}
+
+lights -> change: "bind" { style: { stroke: "#c9d8b6"; font-color: "#c9d8b6" } }
+change -> keep: "burns forever, no fuel item drawn" { style: { stroke: "#c9d8b6"; font-color: "#c9d8b6" } }
