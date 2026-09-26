@@ -16,7 +16,7 @@ X-Ray Monolith: https://github.com/themrdemonized/xray-monolith
 Removes fuel and battery consumption from all placeable light furniture.
 Lights no longer require batteries, kerosene, or gauss ammo to operate.
 
-One script change: bind_light_furniture.script line 88, self.infinite_fuel = true instead of checking world object status.
+One line in the light-furniture binder forces infinite fuel on.
 All visual effects, sounds, flickering, and toggle behavior are preserved.
 
 Features:
@@ -33,14 +33,14 @@ Requirements:
 Anomaly 1.5.3
 Modded exes: themrdemonized 20250908 or newer, or AOEngine v0.55 or newer. The full feature set needs the latest demonized build. A feature that needs a newer one stays inactive on older exes.
 xlibs (https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001)
-Hideout Furniture by Aoldri (provides bind_hf_base.script)
+Hideout Furniture by Aoldri (provides the furniture base)
 
 Install: load after Hideout Furniture and any Hideout Furniture patches.
 
 Compatibility:
 Depends on xlibs and Hideout Furniture (Aoldri), loaded after it. Install and uninstall mid-save work. Tested: Anomaly 1.5.3, GAMMA.
 Disable (conflict, superseded, problematic):
-- Any other mod that overrides bind_light_furniture.script - this is a full-file replacement, so two of them collide and only the load-order winner runs.
+- Any other mod that overrides the light-furniture binder - this is a full-file replacement, so two of them collide and only the load-order winner runs.
 It coexists with everything else.
 
 How It's Built:
@@ -62,8 +62,8 @@ It depends on no other mod, not even the author's own. The only shared layers ar
 That pipeline runs on every commit and publishes what it finds. The header links a live health page and a JitProfiler capture of the mod's real CPU and allocation cost.
 
 Credits:
-Original Hideout Furniture mod by Aoldri.
-Altogolik - support, ideas, source materials
+Aoldri made the original Hideout Furniture mod.
+Altogolik provided support, ideas, and source materials.
 
 Usage and License:
   Modpacks: allowed and encouraged. Keep the readme and license files.
