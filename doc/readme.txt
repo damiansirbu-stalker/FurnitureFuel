@@ -1,5 +1,5 @@
 Version: 1.0.4-snapshot (xlibs 1.5.1, demonized 20250908)
-Changelog: https://github.com/damiansirbu-stalker/FurnitureFuel/blob/main/doc/changelog
+Changelog: https://github.com/damiansirbu-stalker/FurnitureFuel/blob/main/doc/changelog | Health: https://damiansirbu-stalker.github.io/FurnitureFuel/health/ | JitProfiler: https://damiansirbu-stalker.github.io/FurnitureFuel/jitprofiler/ | Bugs: https://github.com/damiansirbu-stalker/FurnitureFuel/issues | Russian / На русском: https://github.com/damiansirbu-stalker/FurnitureFuel/blob/main/doc/readme_ru.txt
 
 My work:
 GitHub: https://github.com/orgs/damiansirbu-stalker/repositories
@@ -31,17 +31,13 @@ Modded exes: themrdemonized 20250908 or newer, or AOEngine v0.55 or newer. The f
 xlibs (https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001)
 Hideout Furniture by Aoldri (provides bind_hf_base.script)
 
-Install (MO2):
-1. Install Hideout Furniture by Aoldri
-2. Install this mod
-3. Must load AFTER Hideout Furniture and any Hideout Furniture patches
-
-Uninstall (MO2):
-Disable or remove in MO2.
+Install: load after Hideout Furniture and any Hideout Furniture patches.
 
 Compatibility:
-Coexists with Hideout Furniture (Aoldri), SixSloth's & Veerserif's Hideout Furnitures, Even More Hideout Furnitures, Hideout Furniture Expansion, and G.A.M.M.A. Light Sources Spawner.
-- Conflicts: any mod that also overrides bind_light_furniture.script (this is a full-file replacement, not DLTX).
+Depends on xlibs and Hideout Furniture (Aoldri), loaded after it. Install and uninstall mid-save work. Tested: Anomaly 1.5.3, GAMMA.
+Disable (conflict, superseded, problematic):
+- Any other mod that overrides bind_light_furniture.script - this is a full-file replacement, so two of them collide and only the load-order winner runs.
+It coexists with everything else.
 
 How It's Built:
 
@@ -59,8 +55,7 @@ The mod avoids writing engine values, holding its own state in parallel. Any val
 The family runs on one rulebook through xlibs. Every rule, policy, and check is one shared implementation, the same protection, distances, faction logic, and combat reads in every mod.
 It depends on no other mod, not even my own. The only shared layers are X-Ray and xlibs.
 
-[Screenshot: FurnitureFuel under JitProfiler, a live CPU and allocation capture]
-Project Health: https://damiansirbu-stalker.github.io/FurnitureFuel/
+That pipeline runs on every commit and publishes what it finds. The header links a live health page and a JitProfiler capture of the mod's real CPU and allocation cost.
 
 Credits:
 Original Hideout Furniture mod by Aoldri.
