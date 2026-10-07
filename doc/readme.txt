@@ -43,9 +43,9 @@ Install: load after Hideout Furniture and any Hideout Furniture patches.
 
 Compatibility:
 Depends on xlibs and Hideout Furniture (Aoldri), loaded after it. Install and uninstall mid-save work. Tested: Anomaly 1.5.3, GAMMA.
-Disable (conflict, superseded, problematic):
+Drop:
 - Any other mod that overrides the light-furniture binder - this is a full-file replacement, so two of them collide and only the load-order winner runs.
-It coexists with everything else.
+Everything else coexists, as long as it extends X-Ray and Anomaly and never overrides them.
 
 How It's Built:
 
