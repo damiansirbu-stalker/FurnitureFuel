@@ -26,10 +26,10 @@ All visual effects, sounds, flickering, and toggle behavior are preserved.
 Features:
 
 Affected items:
-  Metal Torch (was: batteries_dead, 800h)
-  Gas Lamp (was: kerosene, 1200h)
+  Metal Torch (was: batteries_dead, 8h)
+  Gas Lamp (was: kerosene, 12h)
   Gas Lamp GAMMA variant (was: kerosene, 99999h)
-  Light Altar (was: ammo_gauss, 2400h)
+  Light Altar (was: ammo_gauss, 24h)
 
 All other furniture (workshop, radio, displays, stashes) does not consume fuel and is unaffected.
 
