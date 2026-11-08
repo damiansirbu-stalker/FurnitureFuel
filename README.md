@@ -3,7 +3,7 @@
 Removes fuel and battery consumption from every placeable light in Hideout Furniture, so lights no longer need batteries, kerosene or gauss ammo.
 Visual effects, sounds, flickering and toggle behavior are unchanged.
 
-[Releases](https://github.com/damiansirbu-stalker/FurnitureFuel/releases) | [Bugs, suggestions](https://github.com/damiansirbu-stalker/FurnitureFuel/issues)
+[![Releases](https://img.shields.io/badge/Releases-24292f?logo=github&logoColor=white)](https://github.com/damiansirbu-stalker/FurnitureFuel/releases) [![Bugs, suggestions](https://img.shields.io/badge/Bugs%2C_suggestions-24292f?logo=github&logoColor=white)](https://github.com/damiansirbu-stalker/FurnitureFuel/issues) [![Ko-fi](https://img.shields.io/badge/Ko--fi-ff5e5b?logo=kofi&logoColor=white)](https://ko-fi.com/damiansirbu)
 
 [![ci](https://github.com/damiansirbu-stalker/FurnitureFuel/actions/workflows/ci.yml/badge.svg)](https://github.com/damiansirbu-stalker/FurnitureFuel/actions/workflows/ci.yml) [![Project Health](https://img.shields.io/badge/project_health-dashboard-00ced1)](https://damiansirbu-stalker.github.io/FurnitureFuel/)
 
