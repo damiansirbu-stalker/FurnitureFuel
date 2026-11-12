@@ -2,7 +2,7 @@
 --- Requires: Hideout Furniture mod (bind_hf_base, hf_obj_manager)
 -- @novalidate(reason:"full-file override of Hideout Furniture bind_light_furniture; infinite-fuel patch")
 
-local log = xlog.get_logger("HIDEOUT_INFINITE_FUEL", { outfile = "hideout.log" })
+local log = xlog.get_logger("FURNITUREFUEL", { outfile = "furniturefuel.log" })
 
 if not bind_hf_base or not hf_obj_manager then
     log.warn("Hideout Furniture mod not found - this patch requires it")
