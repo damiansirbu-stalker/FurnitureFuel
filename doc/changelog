@@ -1,21 +1,35 @@
 1.0.4-snapshot
-  Added: timed event scheduling works correctly with major modpacks (globals resolve at call time for demonized_time_events compatibility)
-  Added: version displayed at startup (mod + xlibs)
-  Compatibility:
-    Requires themrdemonized modded exes 20250908+ or AOEngine v0.55+.
+  The FurnitureFuel name, the modded exes check and a lamp timer fix
+    Hideout Furniture Infinite Fuel is now FurnitureFuel, and it writes a separate furniturefuel.log.
+    The load check now stops the game with a message when the modded exes are missing or too old, and when xlibs is older than 1.5.1.
+    Other things you will notice. The lamp timer works in modpacks that replace the vanilla timer queue, and the log names the mod, xlibs and exe versions.
 
-  Performance and Infrastructure
-    - Validated locally and in CI on every push, and brought to the collection's standard layout.
+  - Changed the mod name to FurnitureFuel. It logs to a separate furniturefuel.log.
+  - Added the modded exes check. The game stops at load with a message when it finds neither demonized 20250908 or newer nor AOEngine.
+  - Changed the xlibs requirement to 1.5.1.
+  - Added the mod, xlibs and exe versions to the log at startup.
+  - Fixed the lamp switch-off timer in modpacks that replace the vanilla timer queue, such as demonized time events.
 
 1.0.3
-  xlibs 1.2.3 dependency.
+  An xlibs 1.2.3 floor, with newer xlibs accepted
+    From this release the load check accepts xlibs 1.2.3 or any newer compatible version, where it used to ask for 1.2.1 exactly.
+
+  - Changed the xlibs check to accept 1.2.3 or any newer compatible version. It used to stop the game on any version but 1.2.1.
 
 1.0.2
-  Changed: xlibs dependency updated to 1.2.1
+  The xlibs 1.2.1 requirement
+    This release runs on xlibs 1.2.1, and the load check asks for that exact version.
+
+  - Changed the xlibs requirement to 1.2.1.
 
 1.0.1
-  Added: dependency gate for xlibs version check
-  Added: xlibs as explicit requirement (uses xlog)
+  The xlibs dependency check
+    The mod now needs xlibs and checks its version at load.
+
+  - Added the xlibs requirement, with a check at load that stops the game with a message when xlibs is missing or outdated.
 
 1.0.0
-  First release. Infinite fuel for all placeable lights.
+  Infinite fuel for placeable lights
+    In the first release the metal torch, the gas lamp and the light altar burn without batteries, kerosene or gauss ammo.
+
+  - Added infinite fuel for every placeable light. Flicker, sounds and the on and off switch work as before.
