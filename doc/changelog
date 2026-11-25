@@ -1,12 +1,12 @@
 1.0.4-snapshot
   The FurnitureFuel name, the modded exes check and a lamp timer fix
     Hideout Furniture Infinite Fuel is now FurnitureFuel, and it writes a separate furniturefuel.log.
-    The load check now stops the game with a message when the modded exes are missing or too old, and when xlibs is older than 1.5.1.
+    The load check now stops the game with a message when the modded exes are missing or too old, and when xlibs is older than 1.10.1.
     Other things you will notice. The lamp timer works in modpacks that replace the vanilla timer queue, and the log names the mod, xlibs and exe versions.
 
   - Changed the mod name to FurnitureFuel. It logs to a separate furniturefuel.log.
   - Added the modded exes check. The game stops at load with a message when it finds neither demonized 20250908 or newer nor AOEngine.
-  - Changed the xlibs requirement to 1.5.1.
+  - Changed the xlibs requirement to 1.10.1.
   - Added the mod, xlibs and exe versions to the log at startup.
   - Fixed the lamp switch-off timer in modpacks that replace the vanilla timer queue, such as demonized time events.
 
