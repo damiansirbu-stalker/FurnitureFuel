@@ -1,0 +1,41 @@
+--- ff_mcm: MCM page for FurnitureFuel: the Development tab with the log level and the version footer.
+
+ff_mcm = ff_mcm or {}
+
+if not xmcm then
+    ff_mcm.get_config = function() return nil end
+    return
+end
+
+local defaults = {
+    log_level = "WARN", log_flush = false,
+}
+
+local function _build_mcm_path(key)
+    return "ff/development/" .. key
+end
+
+cfg, get_config, load_config = xmcm.create_config("ff", defaults, _build_mcm_path)
+ff_mcm.get_config = get_config
+
+function on_mcm_load()
+    return {
+        id = "ff",
+        gr = {
+            {
+                id = "development",
+                sh = true,
+                gr = {
+                    { id = "desc", type = "desc", text = "ui_mcm_ff_development_desc" },
+                    { id = "log_level", type = "list", val = 0, def = "WARN", content = {
+                        {"ERROR", "error"}, {"WARN", "warn"}, {"INFO", "info"}, {"DEBUG", "debug"},
+                    } },
+                    { id = "log_flush", type = "check", val = 1, def = false },
+                    { id = "div_footer", type = "line" },
+                    { id = "platform", type = "desc", text = "ui_mcm_xmcm_footer",
+                        ui_hook_functor = { _ff_init.get_platform_functor() }, clr = {255, 212, 201, 168} },
+                },
+            },
+        },
+    }
+end

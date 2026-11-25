@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="ui_mcm_menu_ff">
+        <text>FurnitureFuel</text>
+    </string>
+    <string id="ui_mcm_ff_development">
+        <text>Development</text>
+    </string>
+    <string id="ui_mcm_ff_development_desc">
+        <text>Logging for furniturefuel.log.</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_level">
+        <text>Log level</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_level_desc">
+        <text>How much FurnitureFuel writes to furniturefuel.log. Debug adds the startup trace.</text>
+    </string>
+    <string id="ff_development_log_level_lst_error">
+        <text>Error</text>
+    </string>
+    <string id="ff_development_log_level_lst_warn">
+        <text>Warn</text>
+    </string>
+    <string id="ff_development_log_level_lst_info">
+        <text>Info</text>
+    </string>
+    <string id="ff_development_log_level_lst_debug">
+        <text>Debug</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_flush">
+        <text>Flush log each line</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_flush_desc">
+        <text>Write every line immediately. Slower; use only when hunting a crash.</text>
+    </string>
+</string_table>

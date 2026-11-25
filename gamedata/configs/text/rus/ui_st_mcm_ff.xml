@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="ui_mcm_menu_ff">
+        <text>FurnitureFuel</text>
+    </string>
+    <string id="ui_mcm_ff_development">
+        <text>Разработка</text>
+    </string>
+    <string id="ui_mcm_ff_development_desc">
+        <text>Журнал furniturefuel.log.</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_level">
+        <text>Уровень журнала</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_level_desc">
+        <text>Сколько FurnitureFuel пишет в furniturefuel.log. Отладка добавляет трассировку запуска.</text>
+    </string>
+    <string id="ff_development_log_level_lst_error">
+        <text>Ошибки</text>
+    </string>
+    <string id="ff_development_log_level_lst_warn">
+        <text>Предупреждения</text>
+    </string>
+    <string id="ff_development_log_level_lst_info">
+        <text>Сведения</text>
+    </string>
+    <string id="ff_development_log_level_lst_debug">
+        <text>Отладка</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_flush">
+        <text>Записывать журнал построчно</text>
+    </string>
+    <string id="ui_mcm_ff_development_log_flush_desc">
+        <text>Записывать каждую строку сразу. Медленнее, включайте только при поиске вылета.</text>
+    </string>
+</string_table>

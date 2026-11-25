@@ -7,6 +7,7 @@
   - Changed the mod name to FurnitureFuel. It logs to a separate furniturefuel.log.
   - Added the modded exes check. The game stops at load with a message when it finds neither demonized 20250908 or newer nor AOEngine.
   - Changed the xlibs requirement to 1.10.1.
+  - Added an MCM page with Log level and Flush log each line, and the version line at its foot.
   - Added the mod, xlibs and exe versions to the log at startup.
   - Fixed the lamp switch-off timer in modpacks that replace the vanilla timer queue, such as demonized time events.
 
